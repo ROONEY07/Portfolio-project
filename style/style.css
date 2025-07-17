@@ -116,8 +116,103 @@ nav{
 /* Why web */
 .why-web
 {
+    /* Frame 13 */
+    position: absolute;
     width: 1140px;
     height: 1393px;
+    top: 857px;
+ 
+    border-radius: 16px;
     background-color: antiquewhite;
-    margin: 75px auto;
+    padding: 80px 97px 80px 97px;
+    margin-left: 190px;
+    margin-right: 150px;
+
+
 }
+
+.why-web-items
+{
+     /* Frame 12 */
+    position: static;
+    width: 946px;
+    height: 1233px;
+    background-color: white;
+}
+
+.why-web-tittle
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.why-web-description
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.why-web-content2
+{
+    display: flex;
+    position: static;
+    width: 850px;
+    height: 240px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0px;
+
+    gap: 50px
+}
+
+.why-web-content-items
+{
+    margin-left: 48px;
+}
+.why-web-item-tittle
+{
+  color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.why-web-item-des
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.content2
+{
+    margin-top: 32px;
+}
+.content2-img
+{
+    margin-left: 48px;
+    
+}
+

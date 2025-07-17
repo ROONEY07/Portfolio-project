@@ -1,0 +1,123 @@
+/* Embeded fonts */
+
+.azeret-mono-font {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* universal style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Shared style */
+.btn
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-right: 150px;
+    margin-top: 36px;
+    padding: 17px 24px 17px 24px;
+
+}
+
+
+/* nav section */
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.name
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+
+    margin-left: 150px;
+    margin-top: 36px;
+
+
+}
+
+
+
+.img-section
+{
+    width: 1440px;
+    height: 652px;
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Hero-bg */
+    position: absolute;
+    width: 100%;
+    height: 652px;
+    top: 131px;
+
+    text-align: center;
+}
+
+.img-tittle
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.img-description
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.btn1
+{
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: white;
+}
+
+.img-btn
+{
+    margin-left: 138px;
+    margin-bottom: 45px;
+}
+
+
+/* Why web */
+.why-web
+{
+    width: 1140px;
+    height: 1393px;
+    background-color: antiquewhite;
+    margin: 75px auto;
+}

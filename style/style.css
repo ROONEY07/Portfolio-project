@@ -301,14 +301,6 @@ nav{
     top: 2451px;
     bottom: 2130px;
     margin-left: 2.5%;
-    
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 48; */
-
-    /* background-color: aquamarine; */
    
 }
 
@@ -368,4 +360,63 @@ a{
     letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;
+}
+
+/* My next target section */
+
+
+.My-next-target
+{
+    position: relative;
+    width: 1140px;
+    height: 866px;
+    left: 148px;
+    right: 152px;
+    top: 2553px;
+    bottom: 2130px;
+    margin-left: 2.5%;
+}
+
+.my-next-target-content-2
+{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.next-target1, .next-target2, .next-target3
+{
+    display: flex;
+    width: 1140px;
+    height: 219px;
+    padding: 40px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+    position: relative;
+
+}
+
+.next-target-img
+{
+    width: 10vw;
+    height: 10vh;
+    /* Vector */
+    position: relative;
+    left: 0;
+    top: 0;
+
+    display: flex;
+    align-self: center;
+}
+
+.my-next-target-items
+{
+    /* padding: 0; */
+    margin: 0 20px;
 }

@@ -290,3 +290,82 @@ nav{
 
 }
 
+/* My current target section */
+.My-target-section
+{
+    position: relative;
+    width: 1140px;
+    height: 460px;
+    left: 148px;
+    right: 152px;
+    top: 2451px;
+    bottom: 2130px;
+    margin-left: 2.5%;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 48; */
+
+    /* background-color: aquamarine; */
+   
+}
+
+.target1, .target2, .target3
+{
+    position: static;
+    width: 364px;
+    height: 299px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32;
+    padding: 40px;
+
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.my-target-section-2
+{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.tittle
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.description
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
